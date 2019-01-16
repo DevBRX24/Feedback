@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".CardTabA1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginRight="288dp"
+        android:text="Result"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/text_color"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginRight="168dp"
+        android:foregroundGravity="center"
+        android:text="Ratings"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/text_color"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:foregroundGravity="center"
+        android:text="Equivalent"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/text_color"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="3dp"
+                app:cardElevation="3dp">
+
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/main_green_stroke_color">
+
+                    <com.github.abdularis.civ.AvatarImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        app:avatarBackgroundColor="@color/main_green_stroke_color"
+                        app:strokeWidth="1dp"
+                        app:text="1"
+                        app:textSize="22sp" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/material_blue_grey_80">
+
+                    <com.github.abdularis.civ.AvatarImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        app:avatarBackgroundColor="@color/material_blue_grey_80"
+                        app:strokeWidth="1dp"
+                        app:text="2"
+                        app:textSize="22sp" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/main_orange_color">
+
+                    <com.github.abdularis.civ.AvatarImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        app:avatarBackgroundColor="@color/main_orange_color"
+                        app:strokeWidth="1dp"
+                        app:text="3"
+                        app:textSize="22sp" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="#F44336">
+
+                    <com.github.abdularis.civ.AvatarImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        app:avatarBackgroundColor="#F44336"
+                        app:strokeWidth="1dp"
+                        app:text="4"
+                        app:textSize="22sp" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/material_deep_teal_50">
+
+                    <com.github.abdularis.civ.AvatarImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        app:avatarBackgroundColor="@color/material_deep_teal_50"
+                        app:strokeWidth="1dp"
+                        app:text="5"
+                        app:textSize="22sp" />
+                </FrameLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="#FF9800">
+
+                    <com.github.abdularis.civ.AvatarImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        app:avatarBackgroundColor="#FF9800"
+                        app:strokeWidth="1dp"
+                        app:text="6"
+                        app:textSize="22sp" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary">
+
+                    <com.github.abdularis.civ.AvatarImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        app:avatarBackgroundColor="@color/colorPrimary"
+
+                        app:text="7"
+                        app:textSize="22sp" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="#E91E63">
+
+                    <com.github.abdularis.civ.AvatarImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        app:avatarBackgroundColor="#E91E63"
+                        app:text="8"
+                        app:textSize="22sp" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="#673AB7">
+
+                    <com.github.abdularis.civ.AvatarImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        app:avatarBackgroundColor="#673AB7"
+                        app:text="9"
+                        app:textSize="22sp" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/ic_launcher_background">
+
+                    <com.github.abdularis.civ.AvatarImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        app:avatarBackgroundColor="@color/ic_launcher_background"
+                        app:text="0"
+                        app:textSize="22sp" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="1dp"
+                app:contentPadding="3dp">
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:stepSize="1"
+                    android:theme="@style/Widget.AppCompat.RatingBar" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="20dp"
+                android:alwaysDrawnWithCache="true"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="4dp"
+                app:contentPadding="3dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="22dp"
+                    android:text="Overall Result"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:foregroundGravity="center"
+                    android:text="sample"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>
